@@ -35,7 +35,7 @@ const Camera = () => {
     }} style={styles.image}></ImageBackground>
     </TouchableOpacity>;
 
-  return <View style={_styles.XEOlCUjl}>
+  return <View style={_styles.nWQBmfDH}>
       <FlatList data={data} keyExtractor={item => item.id} renderItem={renderItem} />
       <ActionSheet ref={actionSheet} title={"Select Image"} options={ImagePickerOptions} cancelButtonIndex={2} onPress={async index => {
       let res;
@@ -68,7 +68,7 @@ export default {
 };
 
 const _styles = StyleSheet.create({
-  XEOlCUjl: {
+  nWQBmfDH: {
     flex: 1
   }
 });
